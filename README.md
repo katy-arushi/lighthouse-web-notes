@@ -5,5 +5,7 @@ This repository contains all of the notes taken by [Arushi Katyal](https://githu
 
 ## Table of Contents
 * [Week 1](/Week_1)
-  * [Day 1](/Week_1/Day_1)
-# lighthouse-web-notes
+  * [Lecture 1](/Week_1/Lecture_1)
+* [Week 2](/Week_2)
+  * [Lecture 1](/Week_2/Lecture_1)
+  * [Lecture 2](/Week_2/Lecture_2)
