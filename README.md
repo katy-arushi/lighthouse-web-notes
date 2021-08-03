@@ -9,3 +9,5 @@ This repository contains all of the notes taken by [Arushi Katyal](https://githu
 * [Week 2](/Week_2)
   * [Lecture 1](/Week_2/Lecture_1)
   * [Lecture 2](/Week_2/Lecture_2)
+* [Week 3](/Week_3)
+  * [Lecture 1](/Week_3/Lecture_3)
