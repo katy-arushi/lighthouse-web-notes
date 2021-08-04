@@ -6,4 +6,4 @@
   - chai
 - We talked a little bit about making our code modular by exporting and requiring the functions.
 
-You can find the slieds [here](https://docs.google.com/presentation/d/1wzOftSgy3xL7KmwnmvgRRVx8EPYij3oATKC9yhJtffM/edit?usp=sharing).
+You can find the slides [here](https://docs.google.com/presentation/d/1wzOftSgy3xL7KmwnmvgRRVx8EPYij3oATKC9yhJtffM/edit?usp=sharing).
