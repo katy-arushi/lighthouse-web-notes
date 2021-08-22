@@ -23,3 +23,4 @@ _____
 * **[Module 2](/Module_2)**
   * [Week 5](/Module_2/Week_5)
     * [Lecture 1](/Module_2/Week_5/Lecture_1)
+    * [Lecture 2](/Module_2/Week_5/Lecture_2)
