@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <!-- <tr>
+            <th>Name</th><th>Rating</th>
+        </tr>
+        <tr>
+            <th>Breaking Bad</th><th>9</th>
+        </tr>
+        <tr>
+            <th>Vikings</th><th>10</th>
+        </tr>
+        <tr>
+            <th>Sponge Bob Square Pants</th><th>11</th>
+        </tr> -->
+        <%  for(const fs in favoriteSeries){ %>
+            <tr>
+                <th><%= favoriteSeries[fs].name %></th>
+                <th><%= favoriteSeries[fs].rating %></th>
+            </tr>
+       <% } %>
+    </table>
+</body>
+</html>
