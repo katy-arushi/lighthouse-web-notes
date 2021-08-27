@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    <%= heading %>
+  </title>
+</head>
+<body>
+  <a href="/songs/new"><h2> ADD NEW SONG</h2></a>
+
+  <!-- <% my_secret=124 %>
+  <% if(secret === my_secret){ %>
+      loggedIn
+    <% } %> -->
+
+  <table>
+    <tr>
+      <th>Title </th>
+      <th>Author </th>
+        <th>Show</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr> 
+    <% for (song in songs) { %>
+      <tr> 
+        <td>
+          <%= songs[song].title %> 
+        </td>
+        <td>
+          <%= songs[song].author %>
+        </td>
+        <td>
+          <a href="/songs/<%= songs[song].id %>"> 
+            View Song
+          </a>
+        </td>
+        <td>
+          <form method="GET" action="/songs/<%= songs[song].id %>/edit">
+            <button type="submit"> EDIT </button>
+          </form>
+        </td>
+        <td>
+          <form method="POST" action="/songs/<%= songs[song].id %>">
+            <button type="submit"> DELETE </button>
+          </form>
+        </td>
+      </tr>
+    <% } %>
+    <tfoot>
+      <tr>
+        <td>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+  <!-- <%= JSON.stringify(songs) %> -->
+</body>
+</html>

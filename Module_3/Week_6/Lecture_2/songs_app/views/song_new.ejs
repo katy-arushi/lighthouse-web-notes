@@ -1,0 +1,16 @@
+<%- include('./partials/_header.ejs') %>
+<body>
+  <form method="POST" action="/songs" > 
+    <div> 
+      <input name="title" id="mytitle" />
+    </div>
+    <div>
+      <input name="author" id="myauthor" />
+    </div>
+    <div>
+      <input name="description" id="mydescription" />
+    </div>
+    <button type="submit">Add Song</button>
+  </form>
+</body>
+</html>
