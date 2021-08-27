@@ -23,5 +23,5 @@ _____
 _____
 * **[Module 3](/Module_3)** - Intro to Web Server Development with Node
   * [Week 6](/Module_3/Week_6)
-    * [Lecture 1](/Module_3/Week_6/Lecture_1)
-    * [Lecture 2](/Module_3/Week_6/Lecture_2)
+    * [Lecture 1](/Module_3/Week_6/Lecture_1) - Web Servers 101
+    * [Lecture 2](/Module_3/Week_6/Lecture_2) - CRUD with Express
