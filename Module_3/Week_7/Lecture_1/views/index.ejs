@@ -1,0 +1,19 @@
+<%- include('partials/_head.ejs') %>
+
+
+	<section>
+		<% if(!user){ %>
+	 <form method="POST" action="/login">
+		<input type="text" name="email" placeholder="Enter your email here">
+		<input type="password" name="password">
+		<button type="submit">Login</button>
+	 </form>
+		<% } else{ %>
+			<form method="POST" action="/logout">
+				<button type="submit">Logout</button>
+			 </form>
+		<% } %>
+	</section>
+	</body>
+
+	</html>
