@@ -25,3 +25,7 @@ _____
   * [Week 6](/Module_3/Week_6)
     * [Lecture 1](/Module_3/Week_6/Lecture_1) - Web Servers 101
     * [Lecture 2](/Module_3/Week_6/Lecture_2) - CRUD with Express
+  * [Week 7](/Module_3/Week_7)
+    * [Lecture 1](/Module_3/Week_7/Lecture_1) - Cookies in HTTP
+    * [Lecture 2](/Module_3/Week_7/Lecture_2) - 
+
