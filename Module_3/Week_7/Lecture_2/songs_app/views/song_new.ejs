@@ -1,0 +1,25 @@
+<%- include('./partials/_header.ejs') %>
+  <div> adding a song ...</div>
+  <form method="POST" action="/songs" class="container"> 
+    <div class="form-group row">
+      <label for="title" class="col-sm-2 col-form-label">Title</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="title" name="title">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="author" class="col-sm-2 col-form-label">author</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="author" name="author">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="description" class="col-sm-2 col-form-label">description</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="description" name="description">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Add Song</button>
+  </form>
+</body>
+</html>

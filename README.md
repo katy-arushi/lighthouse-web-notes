@@ -27,5 +27,15 @@ _____
     * [Lecture 2](/Module_3/Week_6/Lecture_2) - CRUD with Express
   * [Week 7](/Module_3/Week_7)
     * [Lecture 1](/Module_3/Week_7/Lecture_1) - Cookies in HTTP
-    * [Lecture 2](/Module_3/Week_7/Lecture_2) - 
-
+    * [Lecture 2](/Module_3/Week_7/Lecture_2) - Security and Real World HTTP Servers
+_____
+* **[Module 4](/Module_4)** - Intro to Front End Development
+  * [Week 8](/Module_4/Week_8)
+    * [Lecture 1](/Module_4/Week_8/Lecture_1) - Intro to CSS
+    * [Lecture 2](/Module_4/Week_8/Lecture_2) - 
+  * [Week 9](/Module_4/Week_9)
+    * [Lecture 1](/Module_4/Week_9/Lecture_1) - 
+    * [Lecture 2](/Module_4/Week_9/Lecture_2) -
+  * [Week 10](/Module_4/Week_10)
+    * [Lecture 1](/Module_4/Week_10/Lecture_1) - 
+    * [Lecture 2](/Module_4/Week_10/Lecture_2) -

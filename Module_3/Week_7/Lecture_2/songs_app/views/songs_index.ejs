@@ -1,0 +1,47 @@
+<%- include('./partials/_header.ejs') %>
+
+  <h2> MY SONG LIST</h2>
+
+  <table class="table">
+    <tr>
+      <th>Title </th>
+      <th>Author </th>
+        <th scope="col">Show</th>
+        <th scope="col">Edit</th>
+        <th scope="col">Delete</th>
+    </tr> 
+    <% for (song in songs) { %>
+      <tr> 
+        <td scope="col" >
+          <%= songs[song].title %> 
+        </td>
+        <td scope="col" >
+          <%= songs[song].author %>
+        </td>
+        <td scope="col" >
+          <a href="/songs/<%= songs[song].id %>"> 
+            View Song
+          </a>
+        </td>
+        <td scope="col" >
+          <form method="GET" action="/songs/<%= songs[song].id %>/edit">
+            <button type="submit"> EDIT </button>
+          </form>
+        </td>
+        <td scope="col" >
+          <form method="POST" action="/songs/<%= songs[song].id %>">
+            <button type="submit"> DELETE </button>
+          </form>
+        </td>
+      </tr>
+    <% } %>
+    <tfoot>
+      <tr>
+        <td scope="col" >
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+  <!-- <%= JSON.stringify(songs) %> -->
+</body>
+</html>

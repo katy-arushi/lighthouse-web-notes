@@ -1,0 +1,15 @@
+<%- include('./partials/_header.ejs') %>
+  <form method="POST" action="/songs/<%= song.id %>/edit" > 
+    <div> 
+      <input name="title" id="mytitle" value="<%= song.title %>" />
+    </div>
+    <div>
+      <input name="author" id="myauthor" value="<%= song.author %>" />
+    </div>
+    <div>
+      <input name="description" id="mydescription" value="<%= song.description %>"/>
+    </div>
+    <button type="submit">Edit Song</button>
+  </form>
+</body>
+</html>
