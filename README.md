@@ -32,7 +32,7 @@ _____
 * **[Module 4](/Module_4)** - Intro to Front End Development
   * [Week 8](/Module_4/Week_8)
     * [Lecture 1](/Module_4/Week_8/Lecture_1) - Intro to CSS
-    * [Lecture 2](/Module_4/Week_8/Lecture_2) - 
+    * [Lecture 2](/Module_4/Week_8/Lecture_2) - Client Side JS and jQuery
   * [Week 9](/Module_4/Week_9)
     * [Lecture 1](/Module_4/Week_9/Lecture_1) - 
     * [Lecture 2](/Module_4/Week_9/Lecture_2) -
