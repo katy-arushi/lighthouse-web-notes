@@ -1,84 +1,56 @@
-# HTTP Cookies and User Authentication
+# HTTP Cookies & User Authentication
 
-This is a sample Express Server, capable of authenticating the clients
-by setting plain cookies.
+### To Do
+- [] What is a cookie? (Magic cookie)
+- [] Is a cookie code? a File?  is it Dangerous?
+- [] Why Cookies?
+- [] Reading  & Setting cookies
+- [] Render pages with favorite animal
+- [] Register / Login user with email and password
 
-## HTTP is stateless
+http://localhost:8080/home
 
-What do we mean by statelessness ?
+http://localhost:8080/about
 
-- The server doesn't remember you
-- The server process every request like a new request
+http://localhost:8080/protected
 
-What is state?
+http://localhost:8080/register
 
-- Application state is server-side data which servers store to identify incoming client requests, their previous interaction details, and current context information.
-- Ex: login state, logout state
+http://localhost:8080/login
 
-### Benefits
+### HTTP and Cookies
+* **HTTP** is a stateless protocol which means that the participants are not required to remember any previous communication
+* **Cookies**:
+  * Short for Magic Cookie.
+  * Allow us to store information about a user between HTTP requests
+  * Stored as key/value pairs in the client's browser
+  * Are passed to the server with every HTTP request by the browser.
+  * Usually used to store a unique value that identifies a particular user
 
-- Scalability - no session related dependency
-- Less complex - less synchroniztion
-- Easier to cache
-- The server cannot lose track of information
+### Reading Cookies
+* Cookies come in with the request
+* We could parse the request header ourselves, but it's easier to use a library like `cookie-parser`
+* `cookie-parser` will parse the cookies and add them to the `request` object
 
-### Disadvantages
+```js
+app.get('/protected', (req, res) => {
+  const userId = req.cookies.userId;
+  // do something with the userId
+});
+```
 
-- cannot easily keep track context
-- context has to provided each time
-- Good transactions. not good for conversations.
+### Setting Cookies
+* Cookies are set on the `response` object
+* The browser will receive the reponse and store the cookie as directed
 
-## Using cookies to remember the user
+```js
+app.post('/login', (req, res) => {
+  // handle user's input
+  res.cookie('userId', user.id); // set the cookie's key and value
+  res.redirect('/');
+});
+```
 
-### How cookies work
-
-- a cookie is a small text file that is stored by a browser on the user’s machine
-
-- a collection of key-value pairs that store information
-  - shopping-cart, game scores, ads, and logins
-
-`name=Linguini; style=classy;`
-
-- The response header will set the cookie
-
-  Set-Cookie: <em>value</em>[; expires=<em>date</em>][; domain=<em>domain</em>][; path=<em>path</em>][; secure]
-
-- The browser will store the cookie
-- The browser will send the cookie in the request headers of subsequent requests
-- can be set for a specific domain
-- can have an expiration date, if not session cookie
-
-#### Cookie Security
-
-- cookies are not secure
-- vulnerable to sniffing -> request is intercepted along the way. The captured cookie is then set manually
-- solution: https
-- cookie option
-  - secure -> ensure only https
-  - httpOnly -> prevents javascript to access cookies
-
-## How can we secure cookies
-
-- Cookies are stored in plain text in the browser
-- You can access it in developer tools
-- How can we prevent this?
-- Encrypted cookies
-
-### Bcrypt
-
-- Bcrypt will hash the password with a salt to make it more resistant to attacks
-- Bcrypt will slow down the server. It should be async. Tricky!
-
-#### Difference between encrypted and hashing
-
-##### Hash
-
-- turns a message into a combination of text + number + special characters
-- Hashing is a 1 way process. You cannot retrieve the original string from the hash
-- Useful for passwords
-- The password entered will be hashed and the 2 hashed will be compared
-
-##### Encryption
-
-- Encryption turns data into a series of unreadable characters
-- Encrypted strings can be reversed if you have the key
+### Useful Links
+* [Restrictions on Cookies](https://flaviocopes.com/cookies/#restrictions-of-cookies)
+* [cookie-parser](https://www.npmjs.com/package/cookie-parser)
