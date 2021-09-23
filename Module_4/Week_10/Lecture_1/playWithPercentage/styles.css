@@ -1,0 +1,16 @@
+.box {
+  border: 2px solid blue;
+}
+
+.wrapper {
+  width: 400px;
+  border: 5px solid rebeccapurple;
+}
+
+.px {
+  width: 200px;
+}
+
+.percent {
+  width: 40%;
+}

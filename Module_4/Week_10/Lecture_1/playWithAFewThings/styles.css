@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+
+header {
+  height: 160px;
+  background-color: LightSteelBlue;
+}
+
+section {
+  border: 2px solid black;
+}
+
+section.my-class {
+  color: white;
+}
+
+section div {
+  /* height: 150px; */
+  /* height: 10%; */
+  /* width: 150px; */
+  /* height: 10vh; */
+  width: 50vw;
+  /* width: 20%; */
+  min-width: 200px;
+  margin: 20px;
+  display: inline-block;
+  background-color: Lavender;
+  text-align: center;
+}
+
+footer {
+  background-color: CornflowerBlue;
+  height: 150px;
+}
+
+/* @media screen and (min-width: 500px) {
+  header {
+    background-color: pink;
+  }
+} */
+
+@media screen and (max-width: 600px) {
+  header {
+    background-color: yellowgreen;
+  }
+}
+
+/* min-width => currentWidth > min-width
+max-width => curentWidth < max-width */

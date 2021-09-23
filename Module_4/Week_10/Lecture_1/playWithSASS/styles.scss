@@ -1,0 +1,37 @@
+@import "_variables";
+
+header {
+  background-color: $primary-color;
+  border: $border-width-main $border-style $border-color;
+}
+
+section {
+  background-color: $middle-color;
+  border: 1px solid brown;
+
+  div {
+    background-color: cyan;
+
+    li {
+      color: darkblue;
+    }
+  }
+}
+
+@mixin make-square($num) {
+  font-size: 0.3 * $num;
+  min-width: $num;
+  height: $num;
+}
+
+.small-square {
+  @include make-square(25px);
+}
+
+.medium-square {
+  @include make-square(20vw);
+}
+
+.large-square {
+  @include make-square(100px);
+}
