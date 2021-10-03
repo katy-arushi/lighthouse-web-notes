@@ -44,7 +44,7 @@
         error: () => {
           console.log(error);  
         };
-      })`
+      });
       ```
 
 - form for making new post
