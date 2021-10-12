@@ -40,10 +40,7 @@ _____
 _____
 * **[Module 5](/Module_5)** - Relational Databases and SQL
   * [Week 11](/Module_5/Week_11)
-    * [Lecture 1](/Module_5/Week_11/Lecture_1) -
-    * [Lecture 2](/Module_5/Week_11/Lecture_2) - 
+    * [Lecture 1](/Module_5/Week_11/Lecture_1) - Intro to SQL
+    * [Lecture 2](/Module_5/Week_11/Lecture_2) - Database Design
   * [Week 12](/Module_5/Week_12)
-    * [Lecture 1](/Module_5/Week_12/Lecture_1) -
-  * [Week 13](/Module_5/Week_13)
-    * [Lecture 1](/Module_5/Week_13/Lecture_1) -
-
+    * [Lecture 1](/Module_5/Week_12/Lecture_1) - SQL from our Apps
