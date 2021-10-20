@@ -44,3 +44,7 @@ _____
     * [Lecture 2](/Module_5/Week_11/Lecture_2) - Database Design
   * [Week 12](/Module_5/Week_12)
     * [Lecture 1](/Module_5/Week_12/Lecture_1) - SQL from our Apps
+_____
+* **[Midterms](/Midterms)** - Midterm Weeks
+  * [Weeks_14_and_15](/Weeks_14_and_15)
+    * [Lecture 1](/Midterms/Weeks_14_and_15/Lecture_1) - Intro to Midterm Project
