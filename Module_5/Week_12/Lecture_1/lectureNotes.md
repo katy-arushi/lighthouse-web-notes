@@ -72,3 +72,10 @@ switch(verb){
 
 `const port = process.env.PORT || 8081;`
 
+dotenv loads a file (.env) that can hold our environment variable keys for accessing db. Those environment variables only load on runtime.
+
+.gitignore our .env file We name these variables in our .envs which we can then call inside db client JS file.
+
+#####To share with other devs
+We do push a .env example file to our repo that holds the environment variable KEYS, NOT THE VALUES, and the other devs have to fill those in themselves
+
