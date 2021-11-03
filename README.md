@@ -48,3 +48,13 @@ _____
 * **[Midterms](/Midterms)** - Midterm Weeks
   * [Weeks_14_and_15](/Weeks_14_and_15)
     * [Lecture 1](/Midterms/Weeks_14_and_15/Lecture_1) - Intro to Midterm Project
+_____
+* **[Module 7](/Module_7)** - React
+  * [Week 16](/Module_7/Week_16)
+    * [Lecture 1](/Module_7/Week_16/Lecture_1) - React Fundamentals
+  * [Week 17](/Module_7/Week_17)
+    * [Lecture 1](/Module_7/Week_17/Lecture_1) - 
+  * [Week 18](/Module_7/Week_18)
+    * [Lecture 1](/Module_7/Week_18/Lecture_1) - 
+  * [Week 19](/Module_7/Week_19)
+    * [Lecture 1](/Module_7/Week_19/Lecture_1) - 
