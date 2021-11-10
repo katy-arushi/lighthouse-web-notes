@@ -53,7 +53,7 @@ _____
   * [Week 16](/Module_7/Week_16)
     * [Lecture 1](/Module_7/Week_16/Lecture_1) - React Fundamentals
   * [Week 17](/Module_7/Week_17)
-    * [Lecture 1](/Module_7/Week_17/Lecture_1) - 
+    * [Lecture 1](/Module_7/Week_17/Lecture_1) - Component based UI with React
   * [Week 18](/Module_7/Week_18)
     * [Lecture 1](/Module_7/Week_18/Lecture_1) - 
   * [Week 19](/Module_7/Week_19)
