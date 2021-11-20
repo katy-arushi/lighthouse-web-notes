@@ -56,6 +56,6 @@ _____
     * [Lecture 1](/Module_7/Week_17/Lecture_1) - Component based UI with React
   * [Week 18](/Module_7/Week_18)
     * [Lecture 1](/Module_7/Week_18/Lecture_1) - Data Fetching, Side Effects and useEffect hook
-    * [Lecture 2](/Module_7/Week_18/Lecture_2) -
+    * [Lecture 2](/Module_7/Week_18/Lecture_2) - Custom Hooks
   * [Week 19](/Module_7/Week_19)
     * [Lecture 1](/Module_7/Week_19/Lecture_1) - 
