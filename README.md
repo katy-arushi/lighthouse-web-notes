@@ -59,3 +59,11 @@ _____
     * [Lecture 2](/Module_7/Week_18/Lecture_2) - Custom Hooks
   * [Week 19](/Module_7/Week_19)
     * [Lecture 1](/Module_7/Week_19/Lecture_1) - React Review
+_____
+* **[Module 8](/Module_8)** - Testing in React
+  * [Week 20](/Module_8/Week_20)
+    * [Lecture 1](/Module_8/Week_20/Lecture_1) - Unit & Integration Testing
+    * [Lecture 2](/Module_8/Week_20/Lecture_2) - End-to-End Testing with Cypress
+  * [Week 21](/Module_8/Week_21)
+    * [Lecture 1](/Module_8/Week_21/Lecture_1) -
+    * [Lecture 2](/Module_8/Week_21/Lecture_2) -

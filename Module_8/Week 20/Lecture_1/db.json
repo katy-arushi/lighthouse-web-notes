@@ -1,0 +1,28 @@
+{
+    "1": {
+        "id": 1,
+        "name": "Mahsa",
+        "points": "11"
+    },
+    "2": {
+        "id": 2,
+        "name": "Arushi",
+        "points": "22"
+    },
+    "3": {
+        "id": 3,
+        "name": "Rhea",
+        "points": "33"
+    },
+    "4": {
+        "id": 4,
+        "name": "Olivia",
+        "points": "44"
+    },
+    "5": {
+        "id": 5,
+        "name": "Brett",
+        "points": "55"
+    }
+    
+}
