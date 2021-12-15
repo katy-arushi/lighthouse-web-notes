@@ -1,0 +1,15 @@
+dogs = ["Bita", "Milo", "Cocoa"]
+
+
+greeting = lambda do |name|
+puts "Hello #{name}" 
+end
+
+greeting.call "Brett"
+
+
+printValues = lambda do |name|
+    puts name
+end
+
+dogs.each &printValues
