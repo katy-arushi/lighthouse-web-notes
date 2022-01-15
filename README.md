@@ -74,7 +74,7 @@ _____
   * [Week 23](/Module_9/Week_23)
     * [Lecture 1](/Module_9/Week_23/Lecture_1) - Rails Overview
   * [Week 24](/Module_9/Week_24)
-    * [Lecture 1](/Module_9/Week_24/Lecture_1) - 
+    * [Lecture 1](/Module_9/Week_24/Lecture_1) - Rails Breakout
   * [Week 25](/Module_9/Week_25)
     * [Lecture 1](/Module_9/Week_25/Lecture_1) - 
     * [Lecture 2](/Module_9/Week_25/Lecture_2) - 
