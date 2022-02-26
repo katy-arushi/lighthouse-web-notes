@@ -75,7 +75,8 @@ _____
   * [Week 23](/Module_9/Week_23)
     * [Lecture 1](/Module_9/Week_23/Lecture_1) - Rails Overview
   * [Week 24](/Module_9/Week_24)
-    * [Lecture 1](/Module_9/Week_24/Lecture_1) - Rails Breakout
+    * [Lecture 1](/Module_9/Week_24/Lecture_1_Kat) - Jungle Breakout - Kat
+    * [Lecture 1](/Module_9/Week_24/Lecture_1_Warren) - Rails Breakout - Warren
   * [Week 25](/Module_9/Week_25)
     * [Lecture 1](/Module_9/Week_25/Lecture_1) - Advanced Topics: PHP & GraphQL
   * [Week 26](/Module_9/Week_26)

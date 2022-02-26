@@ -1,0 +1,9 @@
+<h1>Locations Index Page</h1>
+
+<ul>
+    <% @locations.each do |location| %>
+        <li>
+            <%= link_to location.name, location_characters_path(location) %>
+        </li>
+    <% end %>
+</ul>
