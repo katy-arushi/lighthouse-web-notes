@@ -46,7 +46,7 @@ _____
     * [Lecture 1](/Module_5/Week_12/Lecture_1) - SQL from our Apps
 _____
 * **[Midterms](/Midterms)** - Midterm Weeks
-  * [Weeks_14_and_15](/Weeks_14_and_15)
+  * [Weeks 14 and 15](/Weeks_14_and_15)
     * [Lecture 1](/Midterms/Weeks_14_and_15/Lecture_1) - Intro to Midterm Project
 _____
 * **[Module 7](/Module_7)** - React
